@@ -24,3 +24,18 @@
   height: 1em;
   margin-left: 10px;
 }
+
+.navigation {
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  background-color: red;
+}
+.navigation a {
+  display: block;
+  float: left;
+  padding: 4px 12px;
+  font-size: .8rem;
+  color: white;
+}
