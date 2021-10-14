@@ -1,0 +1,47 @@
+IPFS URL for the metadata: 
+ipfs://bafyreih5zxg7wac5ibyi5qhcnqcbn7o6uxn5ilpqqajhuvffpyxv3t5fmy/metadata.json
+
+metadata.json contents:
+{
+  name: 'blue lines image',
+  description: 'abstract lines with blue tones and soft focus',
+  image: URL {
+    href: 'ipfs://bafybeiffzwkp5xypbmzp5bto2miha4peexhkvstqnhi3kyh565b23xqpuu/abstract_lines.jpg',
+    origin: 'null',
+    protocol: 'ipfs:',
+    username: '',
+    password: '',
+    host: 'bafybeiffzwkp5xypbmzp5bto2miha4peexhkvstqnhi3kyh565b23xqpuu',
+    hostname: 'bafybeiffzwkp5xypbmzp5bto2miha4peexhkvstqnhi3kyh565b23xqpuu',
+    port: '',
+    pathname: '/abstract_lines.jpg',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  }
+}
+metadata.json contents with IPFS gateway URLs:
+{
+  name: 'blue lines image',
+  description: 'abstract lines with blue tones and soft focus',
+  image: URL {
+    href: 'https://dweb.link/ipfs/bafybeiffzwkp5xypbmzp5bto2miha4peexhkvstqnhi3kyh565b23xqpuu/abstract_lines.jpg',
+    origin: 'https://dweb.link',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'dweb.link',
+    hostname: 'dweb.link',
+    port: '',
+    pathname: '/ipfs/bafybeiffzwkp5xypbmzp5bto2miha4peexhkvstqnhi3kyh565b23xqpuu/abstract_lines.jpg',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  }
+}
+
+NFT mint results:
+
+  deployer account: 0xa8ca65c4d09ac28f529a71bf274d2d4e1e3d47b3
+
+  deployed to: 0xfeC7183b9D2133C9fC2284B36C96C284dF42A15F
