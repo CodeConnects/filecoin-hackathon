@@ -34,5 +34,3 @@ export default function Challenge_3() {
         </Container>
     )
 }
-
-
