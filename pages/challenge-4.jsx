@@ -3,7 +3,7 @@ import { Container} from 'react-bootstrap'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 
-export default function Challenge4() {
+export default function Challenge_4() {
     return(
         <Container className="md-container">
             <Head>
