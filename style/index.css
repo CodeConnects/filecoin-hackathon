@@ -3,7 +3,7 @@
 
 .md-container {
   max-width: 820px;
-  padding-top: 2rem;
+  padding-top: 2.22rem;
 }
 
 .cntr-footer {
@@ -35,4 +35,7 @@
   padding: 4px 12px;
   font-size: .8rem;
   color: white;
+}
+.navigation a:hover {
+  background-color: orangered;
 }
