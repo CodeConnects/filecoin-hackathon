@@ -48,4 +48,5 @@
 
 .wrap-viewer .nfte--loaded .nfte__media {
   max-height: fit-content;
+  aspect-ratio: auto;
 }
