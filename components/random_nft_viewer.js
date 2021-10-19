@@ -15,11 +15,6 @@ export default function Random_NFT_Viewer() {
             start: 159000000, 
             total: 1024 
         },
-        { cont: "0x41A322b28D0fF354040e2CbC676F0320d8c8850d",
-            title: "SuperRare",
-            start: 1,
-            total: 4422
-        },
         { cont: "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
             title: "Alien Insects by Shvembldr",
             start: 137000000,
