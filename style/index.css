@@ -3,7 +3,7 @@
 
 .md-container {
   max-width: 820px;
-  padding-top: 2.22rem;
+  padding-top: 2.75rem;
 }
 
 .cntr-footer {
@@ -38,4 +38,14 @@
 }
 .navigation a:hover {
   background-color: orangered;
+}
+
+.wrap-viewer .nfte { 
+  max-width: 84%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrap-viewer .nfte--loaded .nfte__media {
+  max-height: fit-content;
 }
