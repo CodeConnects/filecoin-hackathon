@@ -21,22 +21,22 @@ export default function Random_NFT_Viewer() {
             total: 1000
         },
     ]
-    const numCol = collections.length;
+    const numCol = collections.length
 
-    const [collection, setCollection] = useState(Math.floor(Math.random() * numCol));
+    const [collection, setCollection] = useState(Math.floor(Math.random() * numCol))
 
-    const [contr, setContr] = useState(collections[collection].cont);
+    const [contr, setContr] = useState(collections[collection].cont)
 
-    const [title, setTitle] = useState(collections[collection].title);
+    const [title, setTitle] = useState(collections[collection].title)
     
-    const [tid, setTid] = useState(Math.floor(Math.random() * (collections[collection].total) + collections[collection].start));
+    const [tid, setTid] = useState(Math.floor(Math.random() * (collections[collection].total) + collections[collection].start))
 
     const refresh = ()=>{
         // re-render the component
-        setCollection(Math.floor(Math.random() * numCol));
-        setTid(Math.floor(Math.random() * (collections[collection].total) + collections[collection].start));
-        setContr(collections[collection].cont);
-        setTitle(collections[collection].title);
+        setCollection(Math.floor(Math.random() * numCol))
+        setTid(Math.floor(Math.random() * (collections[collection].total) + collections[collection].start))
+        setContr(collections[collection].cont)
+        setTitle(collections[collection].title)
     }
 
     return (
