@@ -13,9 +13,9 @@ export default function Home() {
       
       <Navbar />
 
-      <h4 className="text-center pb-5"><a href="https://medium.com/encode-club/nft-hack-challenges-c6bafddf30f7#660a" target="_blank">Challenges 1 and 2</a></h4>
+      <h4 className="text-center pb-5"><a href="https://medium.com/encode-club/nft-hack-challenges-c6bafddf30f7#660a" target="_blank">Challenges 1 &  2 ~ NFT.storage and CID</a></h4>
 
-      <p><strong>Get an NFT.storage API token, store a file and paste its CID.</strong></p>
+      <p><strong>Get an NFT.storage API token, store a file, then show its CID.</strong></p>
 
       <p>CID:<br /><a href="https://bafyreih5zxg7wac5ibyi5qhcnqcbn7o6uxn5ilpqqajhuvffpyxv3t5fmy.ipfs.dweb.link/metadata.json" target="_blank">bafyreih5zxg7wac5ibyi5qhcnqcbn7o6uxn5ilpqqajhuvffpyxv3t5fmy</a></p>
 
