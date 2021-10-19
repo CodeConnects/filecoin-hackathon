@@ -33,6 +33,7 @@ body {
   left: 0px;
   background-color: black;
   width: 100%;
+  padding: 2px;
 }
 .navigation a {
   display: block;
