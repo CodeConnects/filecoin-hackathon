@@ -26,8 +26,8 @@
   text-align: left;
   position: absolute;
   top: 0px;
-  left: 12px;
-  background-color: red;
+  left: 0px;
+  background-color: black;
 }
 .navigation a {
   display: block;
@@ -38,6 +38,7 @@
 }
 .navigation a:hover {
   background-color: orangered;
+  text-decoration: none;
 }
 
 .wrap-viewer .nfte { 
