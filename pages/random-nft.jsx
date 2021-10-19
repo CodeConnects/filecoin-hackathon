@@ -14,8 +14,6 @@ export default function Random_NFT() {
       
       <Navbar />
 
-      <h5 className="text-center pb-3">A random NFT from selected collections</h5>
-
       <Random_NFT_Viewer />
 
       <Footer />
