@@ -41,14 +41,14 @@ export default function Random_NFT_Viewer() {
 
     return (
         <>
-            <h5 className="text-center pb-3">A random selection from <span className="nft-title">{title}</span></h5>
+            <h5 className="text-center pb-4">A random selection from <span className="nft-title">{title}</span></h5>
             <div className="wrap-viewer">
                 <Button className="float-right" onClick={ refresh } variant="success">View New NFT</Button>
                 <p>
-                    <strong>contract:</strong> <small>{contr}</small>
+                    <strong>contract:</strong> <small className="break-text">{contr}</small>
                     <br /><strong>token ID:</strong> <small>{tid}</small>
                 </p>
-                <NFTE contract={contr} tokenId={tid} />
+                <NFTE className="break-text" contract={contr} tokenId={tid} />
             </div>
         </>
     )
