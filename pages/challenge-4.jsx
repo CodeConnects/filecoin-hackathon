@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Container} from 'react-bootstrap'
-import Navbar from '../components/navigation'
+import { Container } from 'react-bootstrap'
+import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 
 export default function Challenge_4() {

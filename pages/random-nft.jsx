@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Container } from 'react-bootstrap'
-import Navbar from '../components/navigation'
+import Navbar from '../components/navbar'
 import Random_NFT_Viewer from '../components/random_nft_viewer'
 import Footer from '../components/footer'
 
